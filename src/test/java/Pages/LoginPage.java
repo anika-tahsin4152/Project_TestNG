@@ -1,3 +1,5 @@
+package Pages;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,9 +11,9 @@ import java.util.List;
 
 public class LoginPage {
     @FindBy(name = "username")
-    WebElement txtUserName;
+    public WebElement txtUserName;
     @FindBy(name = "password")
-    WebElement txtPass;
+    public WebElement txtPass;
 
     @FindBy(tagName = "submit")
     WebElement btnLogin;

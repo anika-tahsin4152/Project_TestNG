@@ -1,3 +1,8 @@
+package TestRunner;
+
+import Config.Setup;
+import Pages.DashboardPage;
+import Pages.LoginPage;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 

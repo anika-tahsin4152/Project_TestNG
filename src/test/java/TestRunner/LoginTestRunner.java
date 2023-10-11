@@ -1,3 +1,7 @@
+package TestRunner;
+
+import Config.Setup;
+import Pages.LoginPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
@@ -7,7 +11,7 @@ import org.testng.annotations.Test;
 public class LoginTestRunner extends Setup {
 
 
-    @Test
+    @Test(priority = 2)
     public void doLogin() {
 //        site visit
 //    driver.get("https://opensource-demo.orangehrmlive.com");
